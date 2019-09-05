@@ -7,7 +7,8 @@ import { NewsApiService } from './news-api.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  mArticles:Array<any>;
+  mSources:Array<any>;
   
   constructor(private newsapi:NewsApiService){
     console.log('app component constructor called.')
