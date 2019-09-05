@@ -18,5 +18,10 @@ export class AppComponent {
     this.newsapi.initArticles().subscribe(data=> this.mArticles = data['articles']);
     this.newsapi.initSources().subscribe(data => this.mSources = data['sources']);
   }
+
+  searchArticles(source){
+    console.log('selected source is: ' + source);
+    this.newsapi.getArticlesByID(source).subscribe(data => this.mArticles = data['articles']);
+  }
   
 }
