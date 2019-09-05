@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client'
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { AppComponent } from './app.component';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule,
   ],
   providers: [NewsApiService],
   bootstrap: [AppComponent]
