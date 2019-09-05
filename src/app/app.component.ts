@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NewsApiService } from './news-api.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'news-app';
+  
+  
+  constructor(private newsapi:NewsApiService){
+    console.log('app component constructor called.')
+  }
+  
 }
