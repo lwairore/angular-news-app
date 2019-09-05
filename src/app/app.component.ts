@@ -13,5 +13,10 @@ export class AppComponent {
   constructor(private newsapi:NewsApiService){
     console.log('app component constructor called.')
   }
+
+  ngOnInit(){
+    this.newsapi.initArticles().subscribe(data=> this.mArticles = data['articles']);
+    this.newsapi.initSources().subscribe(data => this.mSources = data['sources']);
+  }
   
 }
