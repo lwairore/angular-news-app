@@ -42,3 +42,10 @@ The build artifacts will be stored in the `dist/` directory. Use the `--prod` fl
 ```
 $ ng build --prod
 ```
+
+## Running unit tests
+
+To execute the unit tests via [Karma](https://karma-runner.github.io) run:
+ ```
+ $ ng test
+ ``` 
