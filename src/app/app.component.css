@@ -5,3 +5,8 @@
 .example-card {
     margin-top: 4px;
 }
+
+.example-header-image {
+    background-size: cover;
+}
+
