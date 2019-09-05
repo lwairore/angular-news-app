@@ -12,5 +12,8 @@ export class NewsApiService {
   initSources(){
     return this.http.get('https://newsapi.org/v2/sources?language=en&apiKey='+this.api_key);
   }
+  initArticles(){
+    return this.http.get('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey='+this.api_key);
+  }
   
 }
