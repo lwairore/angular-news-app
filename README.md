@@ -49,3 +49,25 @@ To execute the unit tests via [Karma](https://karma-runner.github.io) run:
  ```
  $ ng test
  ``` 
+
+
+## Further help
+
+* To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+* To learn more on [Angular template language](https://angular.io/guide/template-syntax) visit https://angular.io/guide/template-syntax .
+
+* [What is Angular]() - Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end-to-end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.
+
+* There are many other benefits and features of Angular other than those stated above, which you can look uo with a quick online search.
+
+* [What is Google's Material Design]() - It’s an adaptable system of guidelines, components, and tools that support the best practices of user interface design. It’s also backed by open-source code and supported by a large community of designers and developers who are collaborating together to build beautiful products.
+
+* The official [Angular material documentation](https://material.angular.io/components) gives you an exact code needed to import each module.
+
+* Learn more about [Angular Animations](https://angular.io/guide/animations) - https://angular.io/guide/animations
+
+
+* To find out more about Angular CDK, checkout this [article](https://blog.angular.io/a-component-dev-kit-for-angular-9f06e3b4b3b4)
+
+* Learn more about using [loaders](https://github.com/MurhafSousli/ngx-progressbar/blob/master/README_V3.md#installation) - https://github.com/MurhafSousli/ngx-progressbar/blob/master/README_V3.md#installation
